@@ -59,7 +59,7 @@ namespace example_api_client.Infrastructure.OAuth
         /// </summary>
         /// <returns>
         ///     An <see cref="T:Microsoft.Owin.Security.Infrastructure.AuthenticationHandler" /> configured with the
-        ///     <see cref="T:example_client.Infrastructure.OAuth.StitchzAuthenticationOptions" /> supplied to the constructor.
+        ///     <see cref="T:example_api_client.Infrastructure.OAuth.StitchzAuthenticationOptions" /> supplied to the constructor.
         /// </returns>
         protected override AuthenticationHandler<StitchzAuthenticationOptions> CreateHandler()
         {
